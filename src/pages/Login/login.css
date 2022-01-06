@@ -46,9 +46,13 @@
 .loginInput:focus {
     outline: none;
 }
-.loginButton {
+.log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     border-radius: 10px;
+    text-align: center;
     background-color:#1775ee;
     color: white;
     font-size: 20px;
@@ -56,17 +60,16 @@
     cursor: pointer;
     border: none;
 }
-.log{
-    color: white;
-}
+
 .loginForgot{
     text-align: center;
     color: #1775ee;
 }
 .loginRegister{
     width: 50%;
-    align-self: center;
-    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     background-color:#42b72a;
     color: white;
@@ -74,9 +77,5 @@
     font-weight: 500;
     cursor: pointer;
     border: none;
-    
-}
-.register {
-    color: white;
     
 }
